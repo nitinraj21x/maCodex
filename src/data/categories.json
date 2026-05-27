@@ -1,0 +1,82 @@
+[
+  {
+    "id": "rings",
+    "title": "Rings",
+    "slug": "rings",
+    "description": "Statement rings shaped with heirloom engraving, ruby fire, and bridal luminosity.",
+    "image": "https://unsplash.com/photos/RlFH39w2oFc/download?force=true&w=1200",
+    "bannerImage": "https://unsplash.com/photos/Lz7R2SimXRo/download?force=true&w=1600",
+    "collectionTitle": "Radiant Vaira Rings",
+    "mood": "Candlelit ruby sparkle with ceremonial intimacy."
+  },
+  {
+    "id": "necklaces",
+    "title": "Necklaces",
+    "slug": "necklaces",
+    "description": "Layered haarams and collarettes balancing editorial glamour with South Indian grandeur.",
+    "image": "https://unsplash.com/photos/GJVmEiIWU6E/download?force=true&w=1200",
+    "bannerImage": "https://unsplash.com/photos/2xZnMnWO184/download?force=true&w=1600",
+    "collectionTitle": "Temple Haaram Edit",
+    "mood": "Long-form drape, gilded richness, and silk-saree warmth."
+  },
+  {
+    "id": "temple-jewelry",
+    "title": "Temple Jewelry",
+    "slug": "temple-jewelry",
+    "description": "Sculptural goddess motifs, kasu work, and repoussé details inspired by sanctum artistry.",
+    "image": "https://unsplash.com/photos/LOcfb9s6-tw/download?force=true&w=1200",
+    "bannerImage": "https://unsplash.com/photos/Y7z2nUHnU3E/download?force=true&w=1600",
+    "collectionTitle": "Sanctum Temple Icons",
+    "mood": "Sacred bronze, carved stone, and heritage-rich regality."
+  },
+  {
+    "id": "bridal-sets",
+    "title": "Bridal Sets",
+    "slug": "bridal-sets",
+    "description": "Complete bridal suites for muhurtham moments, from maanga maalai to vanki harmony.",
+    "image": "https://unsplash.com/photos/Dp3ful18-UY/download?force=true&w=1200",
+    "bannerImage": "https://unsplash.com/photos/Lz7R2SimXRo/download?force=true&w=1600",
+    "collectionTitle": "Muhurtham Grandeur",
+    "mood": "Ceremonial opulence, family legacy, and cinematic bridal styling."
+  },
+  {
+    "id": "earrings",
+    "title": "Earrings",
+    "slug": "earrings",
+    "description": "Jhumkas, studs, and chandbalis tuned for movement, sparkle, and festive poise.",
+    "image": "https://unsplash.com/photos/RlFH39w2oFc/download?force=true&w=1200",
+    "bannerImage": "https://unsplash.com/photos/2xZnMnWO184/download?force=true&w=1600",
+    "collectionTitle": "Jhumka Light Studies",
+    "mood": "Delicate swing, bright stones, and portrait-level elegance."
+  },
+  {
+    "id": "bangles",
+    "title": "Bangles",
+    "slug": "bangles",
+    "description": "Stackable valayals and sculpted cuffs with antique granulation and bridal sheen.",
+    "image": "https://unsplash.com/photos/Dp3ful18-UY/download?force=true&w=1200",
+    "bannerImage": "https://unsplash.com/photos/LOcfb9s6-tw/download?force=true&w=1600",
+    "collectionTitle": "Kangan Heritage Stack",
+    "mood": "Rhythmic layering, gold depth, and celebratory texture."
+  },
+  {
+    "id": "diamond-collection",
+    "title": "Diamond Collection",
+    "slug": "diamond-collection",
+    "description": "Modern diamond silhouettes elevated by old-world polish and couture styling.",
+    "image": "https://unsplash.com/photos/RlFH39w2oFc/download?force=true&w=1200",
+    "bannerImage": "https://unsplash.com/photos/RlFH39w2oFc/download?force=true&w=1600",
+    "collectionTitle": "Diamond Atelier",
+    "mood": "High brilliance, understated drama, and midnight glamour."
+  },
+  {
+    "id": "antique-collection",
+    "title": "Antique Collection",
+    "slug": "antique-collection",
+    "description": "Time-softened finishes, temple forms, and collector-grade heritage statements.",
+    "image": "https://unsplash.com/photos/-4B_nmnvvK8/download?force=true&w=1200",
+    "bannerImage": "https://unsplash.com/photos/Y7z2nUHnU3E/download?force=true&w=1600",
+    "collectionTitle": "Revived Heirlooms",
+    "mood": "Patina, sanctum stone, and museum-like gravitas."
+  }
+]

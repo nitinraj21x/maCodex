@@ -1,0 +1,58 @@
+[
+  {
+    "id": "repair",
+    "title": "Repair",
+    "icon": "ShieldCheck",
+    "description": "Precision structural repairs, clasp replacement, solder restoration, and wear assessment for heirloom longevity.",
+    "image": "https://unsplash.com/photos/FzwMt5YY38A/download?force=true&w=1600",
+    "highlights": ["Clasp and lock fixes", "Joint reinforcement", "Heirloom stability checks"]
+  },
+  {
+    "id": "replacement",
+    "title": "Replacement",
+    "icon": "RefreshCcw",
+    "description": "Lost components, matching pairs, stone replacements, and custom remakes aligned to the original spirit of the jewel.",
+    "image": "https://unsplash.com/photos/U3b7SMXxGe8/download?force=true&w=1600",
+    "highlights": ["Missing stone sourcing", "Pair recreation", "Hallmarked metal replacement"]
+  },
+  {
+    "id": "redesign",
+    "title": "Redesign",
+    "icon": "Gem",
+    "description": "Transform family gold and sentimental pieces into contemporary heirlooms with heritage-sensitive design direction.",
+    "image": "https://unsplash.com/photos/g4m_xpePyiU/download?force=true&w=1600",
+    "highlights": ["Heirloom remastering", "Modern bridal sets", "Consult-led redesign sketches"]
+  },
+  {
+    "id": "cleaning",
+    "title": "Jewelry Cleaning",
+    "icon": "Sparkles",
+    "description": "Deep cleaning, polish balancing, and gemstone-safe care for everyday sparkle and ceremonial brilliance.",
+    "image": "https://unsplash.com/photos/GJVmEiIWU6E/download?force=true&w=1600",
+    "highlights": ["Ultrasonic-safe review", "Finish revival", "Stone-safe cleaning methods"]
+  },
+  {
+    "id": "stone-resetting",
+    "title": "Stone Resetting",
+    "icon": "CircleDot",
+    "description": "Detailed prong work and structural resetting for rubies, emeralds, diamonds, and traditional kemp stones.",
+    "image": "https://unsplash.com/photos/RlFH39w2oFc/download?force=true&w=1600",
+    "highlights": ["Prong tightening", "Kemp alignment", "Diamond seat correction"]
+  },
+  {
+    "id": "custom-orders",
+    "title": "Custom Orders",
+    "icon": "Crown",
+    "description": "Commission-led bespoke jewelry shaped around silhouette, symbolism, and ceremonial storytelling.",
+    "image": "https://unsplash.com/photos/2xZnMnWO184/download?force=true&w=1600",
+    "highlights": ["Made-to-order concepts", "Occasion styling", "Temple motif detailing"]
+  },
+  {
+    "id": "bridal-consultation",
+    "title": "Bridal Consultation",
+    "icon": "HeartHandshake",
+    "description": "One-on-one bridal curation covering saree palette, face framing, layering, and heirloom integration.",
+    "image": "https://unsplash.com/photos/Dp3ful18-UY/download?force=true&w=1600",
+    "highlights": ["Look planning", "Set coordination", "Wedding-day layering"]
+  }
+]

@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-ivory: #faeed1;
+  --brand-parchment: #f5e7c7;
+  --brand-gold: #d8b46a;
+  --brand-ruby: #a12230;
+  --brand-garnet: #7d1f2d;
+  --brand-ink: #14110f;
+  --brand-soot: #2b211d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(161, 34, 48, 0.08), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(216, 180, 106, 0.12), transparent 30%),
+    linear-gradient(180deg, #fcf3de 0%, #f8ebcb 48%, #f6e7c4 100%);
+  color: var(--brand-ink);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(161, 34, 48, 0.18);
+  color: #140f0c;
+}
+
+.section-shell {
+  position: relative;
+  overflow: hidden;
+  padding-inline: 1rem;
+}
+
+.section-frame {
+  margin-inline: auto;
+  max-width: 82rem;
+}
+
+.signature-text {
+  font-family: "Halimum", "Snell Roundhand", "Segoe Script", cursive;
+  letter-spacing: 0.02em;
+}
+
+.heritage-noise {
+  background-image:
+    linear-gradient(transparent 0, rgba(255, 255, 255, 0.03) 50%, transparent 100%),
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.18) 0 1px, transparent 1px),
+    radial-gradient(circle at 80% 30%, rgba(161, 34, 48, 0.05) 0 1px, transparent 1px);
+  background-size: auto, 26px 26px, 34px 34px;
+}
+
+.temple-pattern {
+  background-image:
+    linear-gradient(rgba(161, 34, 48, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(161, 34, 48, 0.04) 1px, transparent 1px),
+    radial-gradient(circle at center, rgba(216, 180, 106, 0.08), transparent 58%);
+  background-size: 64px 64px, 64px 64px, 100% 100%;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35), transparent 85%);
+}
+
+.vellum-card {
+  background:
+    linear-gradient(180deg, rgba(255, 249, 237, 0.9), rgba(249, 236, 206, 0.82)),
+    rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(161, 34, 48, 0.12);
+  box-shadow:
+    0 24px 80px rgba(58, 32, 20, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(12px);
+}
+
+.ornament-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(161, 34, 48, 0.42), rgba(216, 180, 106, 0.82), transparent);
+}
+
+.image-fade {
+  background:
+    linear-gradient(180deg, rgba(20, 17, 15, 0.06), rgba(20, 17, 15, 0.58)),
+    linear-gradient(135deg, rgba(161, 34, 48, 0.18), rgba(216, 180, 106, 0.08));
+}
+
+.hero-video-fade {
+  background:
+    linear-gradient(180deg, rgba(14, 10, 9, 0.16) 0%, rgba(14, 10, 9, 0.24) 22%, rgba(14, 10, 9, 0.62) 72%, rgba(14, 10, 9, 0.84) 100%),
+    linear-gradient(115deg, rgba(20, 17, 15, 0.78) 0%, rgba(20, 17, 15, 0.22) 40%, rgba(161, 34, 48, 0.18) 100%);
+}
+
+.hero-video-grain {
+  background-image:
+    radial-gradient(circle at 25% 30%, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px),
+    radial-gradient(circle at 70% 65%, rgba(216, 180, 106, 0.08) 0 1px, transparent 1px),
+    linear-gradient(transparent 0, rgba(255, 255, 255, 0.02) 50%, transparent 100%);
+  background-size: 26px 26px, 34px 34px, auto;
+  mix-blend-mode: screen;
+}
+
+.editorial-grid {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.mask-fade-bottom {
+  mask-image: linear-gradient(180deg, black 78%, transparent 100%);
+}
+
+.nav-glow::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.6rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(161, 34, 48, 0.78), transparent);
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.nav-glow:hover::after,
+.nav-glow[aria-current="page"]::after {
+  opacity: 1;
+}
+
+@media (min-width: 640px) {
+  .section-shell {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-shell {
+    padding-inline: 2.5rem;
+  }
+}
